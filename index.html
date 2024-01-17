@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./assets/Personal Profile.png">
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Muhammed Hudaifath</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__socials">
+        <a href="https://wa.me/qr/ZIP3RLQRJV6VJ1"><i class="ri-whatsapp-line"></i></a>
+        <a href="https://github.com/hudaifamuhammed"><i class="ri-github-fill"></i></a>
+        <a href="https://linkedin.com/in/hudaif121"><i class="ri-linkedin-fill"></i></a>
+      </div>
+      <nav>
+        <div class="nav__bar">
+          <div class="nav__header">
+            <div class="nav__logo">
+              <a href="#">Muhammed Hudaifath<span>.</span></a>
+            </div>
+            <div class="nav__menu__btn" id="menu-btn">
+              <span><i class="ri-menu-3-line"></i></span>
+            </div>
+          </div>
+          <ul class="nav__links" id="nav-links">
+            <li class="link"><a href="#home">Home</a></li>
+            <li class="link"><a href="#about">About</a></li>
+            <li class="link"><a href="#project">Projects</a></li>
+            <li class="link"><a href="#service">Services</a></li>
+            <li class="link btn"><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <div class="header__image">
+          <img src="./assets/header 6.jpg" alt="header" />
+        </div>
+        <div class="header__content">
+          <h1>Hi, I Am <br> Muhammed Hudaifath</h1>
+          <h2>Full Stack Developer & UI/UX Designer</h2>
+          <!-- <p>
+            I'm a dedicated web developer with a creative flair and a penchant
+            for turning lines of code into captivating online experiences. My
+            journey in the digital realm began years ago, and I've since honed
+            my skills in front-end and back-end development.
+          </p> -->
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img src="./assets/about 3.jpg" alt="about" />
+      </div>
+      <div class="about__content">
+        <h2 class="section__header">Hi There I Am Hudaif</h2>
+        <p>
+          I am a UI/UX Designer 
+          and Full Stack Developer with a proven track record of transforming ideas into 
+          engaging, user-centric solutions. My unique blend of design finesse and technical 
+          prowess allows me to bridge the gap between aesthetics and functionality.
+        </p>
+        <h4>
+          With a focus on user experience and a commitment to staying updated
+          with the latest industry trends, I'm dedicated to creating web
+          solutions that not only meet but exceed expectations.
+        </h4>
+        <div class="about__btns">
+          <a href="./assets/Professional CV Resume.pdf" download class="download__btn">
+            Download CV
+          </a>
+          <a href="mailto:hudaifamuhammed121@gmail.com"><i class="ri-mail-line"></i></a>
+          <a href="https://github.com/hudaifamuhammed"><i class="ri-github-fill"></i></a>
+          <a href="https://linkedin.com/in/hudaif121"><i class="ri-linkedin-fill"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container project__container" id="project">
+      <div class="project__header">
+        <h2 class="section__header">Projects</h2>
+        <div class="project__nav">
+          <button
+            class="btn project__btn mixitup-control-active"
+            data-filter="all">All</button>
+          <button class="btn project__btn" data-filter=".web">Web Apps</button>
+          <button class="btn project__btn" data-filter=".sm-posters">UI/UX Designs</button>
+          <button class="btn project__btn" data-filter=".logo-designs">Logo Designs</button>
+          <button class="btn project__btn" data-filter=".package-designs">Package Designs</button>
+        </div>
+      </div>
+      <div class="project__grid">
+        <div class="project__card mix web" id="webapps">
+          <h3>Dentelo</h3>
+          <img src="./assets/Dentelo.jpg" alt="project"  onclick="location.href='https://hudaifamuhammed.github.io/the-dentist/'" />
+        </div>
+        <div class="project__card mix web" id="webapps">
+          <h3>Foddies</h3>
+          <img src="./assets/Foddies.jpg" alt="project" onclick="location.href='https://hudaifamuhammed.github.io/foddies/'" />
+        </div>
+        <div class="project__card mix web" id="webapps">
+          <h3>Calculator</h3>
+          <img src="./assets/project-5.jpg" alt="project" onclick="location.href='https://hudaifamuhammed.github.io/Calculator/'" />
+        </div>
+        <div class="project__card mix sm-posters" id="uiuxdesigns">
+          <h3>UI/UX Designs</h3>
+          <img src="./assets/Ui UX.jpg" alt="project" onclick="location.href='https://www.behance.net/gallery/189156913/UI-UX-Design-for-Office-App'"/>
+        </div>
+        <div class="project__card mix logo-designs" id="logodesigns">
+          <h3>Logo Designs</h3>
+          <img src="./assets/Logo.jpg" alt="project" onclick="location.href='https://www.behance.net/gallery/174504837/Logo-Design'" />
+        </div>
+        <div class="project__card mix package-designs" id="packagedesigns">
+          <h3>Package Designs</h3>
+          <img src="./assets/Label Ds.jpg" alt="project" onclick="location.href='https://www.behance.net/gallery/158913479/Package-Design'"/>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container service__container" id="service">
+      <p class="section__subheader">Services</p>
+      <h2 class="section__header">What I Do?</h2>
+      <p class="section__description">
+        Specialize in a wide range of web development services designed to
+        transform your vision into reality.
+      </p>
+      <div class="service__grid">
+        <div class="service__card">
+          <span><i class="ri-window-fill"></i></span>
+          <h4>Web Development</h4>
+          <p>
+            A passion for clean code and an eye for stunning design, I specialize in crafting
+            responsive and dynamic websites that not only look fantastic but also function seamlessly.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-smartphone-line"></i></span>
+          <h4>UI/UX Designs</h4>
+          <p>
+            Passionate with a keen eye for detail and a user-centric approach, I specialize in
+            transforming ideas into captivating designs that leave a lasting impression.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-pencil-line"></i></span>
+          <h4>Logo Designs</h4>
+          <p>
+            Dedicated logo designer with a passion for turning ideas into impactful visual identities. 
+            I specialize in crafting logos that not only stand out but also tell your brand's story in a single glance.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-store-line"></i></span>
+          <h4>Package Designs</h4>
+          <p>
+            Dedicated package designer ready to transform your products into visual stories that leap off the shelf. 
+            I specialize in marrying form and function to make your brand stand out in the crowd.
+          </p>
+        </div>
+        <!-- <div class="service__card">
+          <span><i class="ri-seo-line"></i></span>
+          <h4>SEO</h4>
+          <p>
+            Our SEO strategies are tailored to your specific goals, helping you
+            reach your target audience and grow your online presence.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-share-circle-line"></i></span>
+          <h4>Digital Marketing</h4>
+          <p>
+            From pay-per-click (PPC) advertising to social media marketing, we
+            ensure your brand stands out in the crowded digital landscape.
+          </p>
+        </div> -->
+      </div>
+    </section>
+
+    <!-- <section class="section__container client__container" id="client">
+      <p class="section__subheader">Testimonials</p>
+      <h2 class="section__header">What Our Clients Say About Us</h2>
+      Slider main container
+      <div class="swiper">
+        Additional required wrapper
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/client-1.jpg" alt="client" />
+              <div>
+                <p>
+                  They transformed our online presence with their SEO and
+                  content marketing services. Our website now ranks higher in
+                  search results, and the quality of leads has improved
+                  substantially. I highly recommend their digital marketing
+                  expertise.
+                </p>
+                <h4>John Miller <span>CEO, Corporation</span></h4>
+                <div class="client__ratings">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-half-fill"></i></span>
+                  <span><i class="ri-star-line"></i></span>
+                </div>
+              </div>
+            </div>
+          </div> -->
+          <!-- <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/client-2.jpg" alt="client" />
+              <div>
+                <p>
+                  Working with them has been a game-changer for our business.
+                  Their web development expertise helped us create a sleek and
+                  responsive website that has significantly increased our online
+                  sales. Their dedication and innovative solutions truly set
+                  them apart.
+                </p>
+                <h4>Sarah Thompson <span>Marketing Director</span></h4>
+                <div class="client__ratings">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-line"></i></span>
+                </div>
+              </div>
+            </div>
+          </div> -->
+          <!-- <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/client-3.jpg" alt="client" />
+              <div>
+                <p>
+                  Our digital marketing strategy needed a revamp, and they
+                  delivered outstanding results. Their team's creative approach
+                  to PPC campaigns and social media advertising has generated a
+                  significant increase in our website traffic and conversions.
+                </p>
+                <h4>David Peterson <span>Marketing Manager</span></h4>
+                <div class="client__ratings">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-half-fill"></i></span>
+                </div>
+              </div>
+            </div>
+          </div> -->
+          <!-- <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/client-4.jpg" alt="client" />
+              <div>
+                <p>
+                  The mobile app they developed for our company exceeded our
+                  expectations. Not only is it user-friendly, but it also helped
+                  us connect with our customers on a whole new level. Their
+                  attention to detail and commitment to delivering on time were
+                  exceptional.
+                </p>
+                <h4>Harrison Rogers <span>Product Manager</span></h4>
+                <div class="client__ratings">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        If we need pagination
+        <div class="swiper-pagination"></div>
+      </div>
+    </section> -->
+
+
+
+    <section class="section__container contact__container" id="contact">
+      <p class="section__subheader">Contact Me</p>
+      <h2 class="section__header">Get In Touch</h2>
+      <form action="https://api.web3forms.com/submit" method="POST" class="contact__form">
+        <input type="hidden" name="access_key" value="5e1d936b-9b5e-499b-8f58-47cb09e05f0a">
+        <div class="input__row">
+          <input type="text" placeholder="Full Name" name="name" required />
+          <input type="text" placeholder="Phone" name="phone" required />
+        </div>
+        <input type="email" placeholder="Email" name="email" required/>
+        <input type="text" placeholder="Description" name="description" required/>
+        <button class="btn">Submit</button>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <h5><a href="#">Hudaif</a></h5>
+          <p>
+            I'm a dedicated web developer with a creative flair and a penchant
+            for turning lines of code into captivating online experiences.
+          </p>
+          <div class="footer__socials">
+            <a href="mailto:hudaifamuhammed121@gmail.com"><i class="ri-mail-line"></i></a>
+            <a href="https://github.com/hudaifamuhammed"><i class="ri-github-fill"></i></a>
+            <a href="https://linkedin.com/in/hudaif121"><i class="ri-linkedin-fill"></i></a>
+            <a href="https://wa.me/qr/ZIP3RLQRJV6VJ1"><i class="ri-whatsapp-line"></i></a>
+            <a href="https://www.instagram.com/hudaifamuhammed?igsh=ZWczY3NwNHl3bGh4"><i class="ri-instagram-line"></i></a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>Services</h4>
+          <div class="footer__links">
+            <a href="#webapps">Web Development</a>
+            <a href="#uiuxdesigns">UI/UX Design</a>
+            <a href="#logodesigns">Logo Design</a>
+            <a href="#packagedesigns">Package Design</a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>Support</h4>
+          <div class="footer__links">
+            <a href="#contact">Contact</a>
+            <a href="#">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 Muhammed Hudaifath. All rights reserved.
+      </div>
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
